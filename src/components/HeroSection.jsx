@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ArrowRight, ChevronDown, Sparkles, ShieldCheck } from 'lucide-react';
+import { ArrowRight, ChevronDown, ShieldCheck } from 'lucide-react';
 
 export default function HeroSection({ onOpenDemoModal }) {
   const heroRef = useRef(null);
@@ -173,7 +173,6 @@ export default function HeroSection({ onOpenDemoModal }) {
             className="w-full sm:w-auto relative overflow-hidden px-6 sm:px-9 py-3.5 sm:py-4 rounded-xl bg-[#005288] hover:bg-[#003e66] text-white font-bold text-xs sm:text-base tracking-wide shadow-rm-btn transition-all duration-300 transform active:scale-95 flex items-center justify-center space-x-2 group cursor-pointer"
           >
             <span className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent transform -skew-x-12 group-hover:animate-shimmer"></span>
-            <Sparkles className="w-4 h-4 text-sky-300 group-hover:rotate-12 transition-transform" />
             <span>Predictive maintenance Platform</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1.5 transition-transform duration-200" />
           </button>

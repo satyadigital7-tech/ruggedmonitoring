@@ -10,7 +10,6 @@ import {
   Zap,
   Shield,
   RefreshCw,
-  Sparkles,
 } from 'lucide-react';
 
 export default function Navbar({ onOpenDemoModal }) {
@@ -182,7 +181,6 @@ export default function Navbar({ onOpenDemoModal }) {
               className="relative overflow-hidden px-6 py-2.5 rounded-full bg-[#111827] hover:bg-black text-white text-sm font-semibold tracking-wide transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0 flex items-center space-x-2 group cursor-pointer"
             >
               <span className="absolute top-0 -left-full w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent transform -skew-x-12 group-hover:animate-shimmer"></span>
-              <Sparkles className="w-3.5 h-3.5 text-sky-400 group-hover:rotate-12 transition-transform" />
               <span>Contact us</span>
             </button>
 

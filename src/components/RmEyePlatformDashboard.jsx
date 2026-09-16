@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Sparkles, LayoutDashboard, Crosshair, AlertTriangle } from 'lucide-react';
+import { LayoutDashboard, Crosshair, AlertTriangle } from 'lucide-react';
 
 export default function RmEyePlatformDashboard({ onOpenDemoModal }) {
   const [viewMode, setViewMode] = useState('dynamic');
@@ -141,7 +141,6 @@ export default function RmEyePlatformDashboard({ onOpenDemoModal }) {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center space-y-3 sm:space-y-4 mb-10 sm:mb-16">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-sky-100 border border-sky-200 text-[#005288] text-[11px] sm:text-xs font-mono font-bold">
-            <Sparkles className="w-3.5 h-3.5" />
             <span>AI-POWERED ANALYTICS &amp; PREDICTIVE MAINTENANCE</span>
           </div>
           <h2 className="text-2xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
